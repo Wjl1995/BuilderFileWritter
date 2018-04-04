@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='gb2312' ?>
+<Report>
+	<Header>
+		<VersionId>Version:1.0</VersionId>
+		<ExportDate>2018-04-03</ExportDate>
+	</Header>
+	<Body>
+		<Datas FilesName="宝贝名称，产品ID，省，城市，价格">
+			<Data>
+				<ProductNM>耐克衬衫</ProductNM>
+				<ProductCategoty>10001</ProductCategoty>
+				<Province>浙江</Province>
+				<City>杭州</City>
+				<Price>100</Price>
+			</Data>
+			<Data>
+				<ProductNM>耐克衬衫</ProductNM>
+				<ProductCategoty>10002</ProductCategoty>
+				<Province>江苏</Province>
+				<City>苏州</City>
+				<Price>150</Price>
+			</Data>
+			<Data>
+				<ProductNM>耐克裙子</ProductNM>
+				<ProductCategoty>20001</ProductCategoty>
+				<Province>江苏</Province>
+				<City>苏州</City>
+				<Price>120</Price>
+			</Data>
+			<Data>
+				<ProductNM>Kappa衬衫</ProductNM>
+				<ProductCategoty>30001</ProductCategoty>
+				<Province>浙江</Province>
+				<City>杭州</City>
+				<Price>100</Price>
+			</Data>
+			<Data>
+				<ProductNM>Kappa衬衫</ProductNM>
+				<ProductCategoty>30002</ProductCategoty>
+				<Province>江苏</Province>
+				<City>苏州</City>
+				<Price>150</Price>
+			</Data>
+			<Data>
+				<ProductNM>Kappa衬衫</ProductNM>
+				<ProductCategoty>40001</ProductCategoty>
+				<Province>江苏</Province>
+				<City>苏州</City>
+				<Price>120</Price>
+			</Data>
+		</Datas>
+	</Body>
+	<Footer>
+		<ExportUser>Wu-Jiali</ExportUser>
+	</Footer>
+</Report>
