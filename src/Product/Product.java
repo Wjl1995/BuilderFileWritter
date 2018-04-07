@@ -13,6 +13,9 @@ public abstract class Product {
 		this.setProvince(province);
 		this.setCity(city);
 		this.setPrice(price);
+		
+		ProductCounter productCounter = ProductCounter.getInstance();
+		productCounter.newProduct();
 	}
 
 	public String getProductNM() {

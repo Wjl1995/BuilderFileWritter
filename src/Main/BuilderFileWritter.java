@@ -34,6 +34,9 @@ public class BuilderFileWritter {
 		fBody.addProduct(product5);
 		fBody.addProduct(product6);
 		
+		ProductCounter productCounter = ProductCounter.getInstance();
+		System.out.println("总共产品数为："+productCounter.getProductCount());
+		
 		
 		// 测试输出到文本文件
 		TxtBuilder txtBuilder = new TxtBuilder();
@@ -47,6 +50,9 @@ public class BuilderFileWritter {
 		}
 		
 		// 测试输出到XML文件
+		
+		
+		
 		XmlBuilder xmlBuilder = new XmlBuilder();
 		Director director2 = new Director(xmlBuilder);
 		director2.construct(fHeader, fBody, fFooter);
